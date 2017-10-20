@@ -1,6 +1,6 @@
 
 INSERT INTO test1.emp1 (id, name, age)
-VALUES (3, 'suresh', 25);
+VALUES (3, 'Suresh kumar', 25);
 
 UPDATE test1.emp1
 SET name='sureshg'
