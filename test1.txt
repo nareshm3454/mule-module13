@@ -1,0 +1,12 @@
+
+INSERT INTO test1.emp1 (id, name, age)
+VALUES (3, 'suresh', 25);
+
+UPDATE test1.emp1
+SET name='sureshg'
+WHERE id=3;
+
+select * from test1.emp1;
+
+DELETE FROM test1.emp1
+WHERE id=3;
